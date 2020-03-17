@@ -7,7 +7,7 @@ from PIL import Image
 
 def Start_get_data(ids):
         
-        cam = cv2.VideoCapture('4.mp4')
+        cam = cv2.VideoCapture(0)
         cam.set(3, 400)
         cam.set(4, 400) 
         face_detector = cv2.CascadeClassifier('Material/haarcascade_frontalface_default.xml')

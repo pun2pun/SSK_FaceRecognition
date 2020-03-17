@@ -13,7 +13,7 @@ def begin_scan():
 
         font = cv2.FONT_HERSHEY_SIMPLEX
         
-        cam = cv2.VideoCapture('avenger_vdo.mp4')
+        cam = cv2.VideoCapture(0)
         cam.set(3, 640) # set video widht
         cam.set(4, 480) # set video height
 
