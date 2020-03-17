@@ -56,17 +56,13 @@ def begin_scan():
                            
             window_name = 'camera'
             cv2.imshow(window_name,img) 
-            
+
             k = cv2.waitKey(10) & 0xff 
             if k == 27:                                                  # Press 'ESC' for exiting video
                 break
-        
+
         cam.release()
         cv2.destroyAllWindows()
-
-
-
-
 
 begin_scan()
 
