@@ -30,3 +30,6 @@ def trainModel():
         recognizer.write('trainModel/Model.yml')
 
         print('Update model already !')
+
+
+trainModel()
